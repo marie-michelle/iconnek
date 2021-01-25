@@ -1,0 +1,167 @@
+@font-face{
+    font-family: 'Arvo-bold', serif;
+    src: url(../font/Arvo-Bold.ttf)
+}
+@font-face{
+    font-family: 'Arvo-regular', serif;
+    src: url(../font/Arvo-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Code-source-regular', serif;
+    src: url(../font/SourceCodePro-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'Code-source-semi-bold', serif;
+    src: url(../font/SourceCodePro-SemiBold.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    width: 100%;
+  }
+.nav-color{
+    background-color: rgb(34, 34, 34)
+}
+
+h1{
+    font-family: 'Arvo-bold', serif;
+    font-size: 2em;
+}
+
+h2{
+    font-family: 'Arvo-regular', serif;
+    font-size: 1.5em;
+}
+h3{
+    font-family: 'Code-source-semi-bold', serif;
+    font-size: 1em;
+}
+p{
+    font-family: 'Code-source-regular', serif;
+    font-size: 0.75em;
+}
+
+hr.style {
+    height: 12px;
+    border: 2;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+
+.full{
+    width: 100%;
+    height: auto;
+}
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.shadow{
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.9);
+}
+
+.bg-blue{
+    background-color: rgb(19, 23, 31);
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(19, 23, 31)
+}
+
+.white{
+    color: #fff0e8;
+}
+.green {
+    color: #00846e
+  }
+  
+  .orange {
+    color: #ec8753;
+  
+  }
+
+.height-titre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.image-style{
+    filter: sepia(0.4);
+    -webkit-filter: sepia(0.4);
+}
+
+.image-style:hover{
+    filter: sepia(0.7);
+    -webkit-filter: sepia(0.7);
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    align-items: left;
+    text-align: left !important;
+ }
+   
+
+.bg-img{
+    background-color: rgb(255, 215, 187);
+    background-image: url("../img/corpo-img-4.jpg");
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.full-screen{
+    height: 100vh;
+    width:auto;
+}
+
+.z-1{
+    z-index: -1;
+}
+  
+ 
+  .btn-outline-light{
+    color: #834fdd;
+    border-color: #834fdd;
+  
+  }
+  .btn-outline-light:hover{
+    background-color: #834fdd;
+    color: #0f0f0f;
+  
+  }
+  
+  .center{
+    align-items: center;
+    justify-content: center;
+  }
+  
